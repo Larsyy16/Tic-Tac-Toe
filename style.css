@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+
+#gameboard {
+    width: 180px;
+    height: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    margin: auto;
+}
+
+
+
+.spaces {
+    width: 60px;
+    height: 60px;
+    background-color: #f2f2f2;
+    /* border: 2px solid #333; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.spaces:hover {
+    background-color: #ccc
+}
+
+#space1,
+#space2,
+#space4,
+#space5,
+#space7,
+#space8 {
+    border-right: 4px solid #333;
+}
+
+#space1,
+#space2,
+#space3,
+#space4,
+#space5,
+#space6 {
+    border-bottom: 4px solid #333;
+}
+
+
+header {
+    position: relative;
+    top: 150px;
+    width: 220px;
+    /* align-content: center; */
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.displayButtons {
+    width: 50px;
+    background-color: #f2f2f2;
+    /* border: 2px solid #333; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    width: auto;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    /* border: 2px solid #333; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#x {
+    margin-left: 20px;
+}
+
+#o {
+    margin-right: 20px;
+}
