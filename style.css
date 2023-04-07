@@ -13,7 +13,8 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 60px);
     grid-template-rows: repeat(3, 60px);
-    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 200px;
 }
 
 
@@ -88,4 +89,9 @@ select {
 
 #o {
     margin-right: 20px;
+}
+
+#restart {
+    display: flex;
+    flex-direction: row-reverse;
 }
